@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5 {
 padding:10px;
 }
 
-.main-header .navbar{
+.main-header .navbar ul{
 display:inline-block;
 }
 
@@ -112,7 +112,8 @@ display:inline-block;
 	border:grey 1px solid;
 	color:grey;
 	text-decoration:none;
-	margin:0 0 0 16%font-size:20px;
+    margin:0 0 0 16%;
+    font-size:20px;
 }
 
 .main-header .header-img{
@@ -155,4 +156,10 @@ footer .copyright{
 	text-align:center;
 }
 
+@media (max-width: 800px){
 
+}
+
+@media (max-width: 500px){
+
+}
