@@ -72,6 +72,10 @@ h1, h2, h3, h4, h5 {
 	border:1px solid grey;
 }
 
+.navbar{
+border:1px solid red;
+	
+}
 .main-header .navbar{
 padding:10px;
 }
@@ -99,7 +103,7 @@ display:inline-block;
 .main-header .caption{
 	display:inline;
 	text-align:center;
-	border:1px solid red;
+	border:1px solid pink;
 }
 
 .main-header .caption h1{
@@ -107,7 +111,7 @@ display:inline-block;
 	display:inline-block;
 	padding:5px;
 	margin:10% 0 2% 10%;
-	border:1px solid green;
+	border:1px solid yellow;
 }
 
 .main-header .caption a{
@@ -121,7 +125,6 @@ display:inline-block;
 
 .main-header .header-img{
 	margin:-25% 0 8% 70%;
-	border:1px solid yellow;
 }
 
 .content-section .content-box-top{
@@ -161,20 +164,45 @@ footer .copyright{
 }
 
 @media (max-width: 800px){
+	
 	.navbar{
 		display:flex;
 		flex-direction: column;
+		margin-top:30px;
 	}
 	.header-img{
 		display:none;
+
 	}
+
 	.main-header .caption h1{
+		border:1px solid purple;
 		display:flex;
-		flex-direction: center;
+		flex-direction: column;
+		margin:0;
 	}
+	.logo{
+		padding:0;
+		width:20%;
+		margin-top:-60px;
+	}
+	
+
 
 }
 
 @media (max-width: 500px){
-
+.container{
+	display:flex;
+	flex-direction: column;
+	
+}
+.navbar{
+	display:flex;
+	flex-direction: column;
+	margin-top:30px;
+}
+ul{
+	flex-direction:column;
+}
 }
